@@ -12,12 +12,12 @@ Traffic Sign Recognition
  
  Maxpool2D reduces image dimensionality and here pool_size is (2,2) which is window size of 2x2
  Dropout is used to ignore some of the neurons(data points) randomly from the dataset while fitting the model. It used to handle overfitting of the model. 
- Flatten() is used to convert nD array to 1D arrray.
- activation function softmax is used when we have to build mutliclass classifier.
- Compiling of the model is done by categorical_crossentropy as loss for the parameter. categorical cross entropy is used to minimize the distance between predicted and actual class label. optimiser adam is used to find individual learning rate for each parameter .
+ Flatten() is used to convert nD array to 1D array.
+ activation function softmax is used when we have to build multiclass classifier.
+ Compiling of the model is done by categorical_crossentropy as loss for the parameter. categorical cross entropy is used to minimize the distance between predicted and actual class label. optimizer adam is used to find individual learning rate for each parameter .
  An epoch is the number of times the iteration takes place to fit the model. model is fitted for the trained dataset in a batch size of 32 images.
  
- we are using matplotlib for the plotting of graphs between epochs and acuuracy for training accuracy and validation accuracy  and also between epochs and loss for training loss and validation loss.  As u can see the validation accuracy is higher than the training acccuracy,  since we dont use dropout for validation set. 
+ we are using matplotlib for the plotting of graphs between epochs and accuracy for training accuracy and validation accuracy  and also between epochs and loss for training loss and validation loss.  As u can see the validation accuracy is higher than the training accuracy, since we dont use dropout for validation set. 
  Testing the model using the test dataset and finding accuracy score using scikit learn.
  predict_classes uses trained model for predicting the images of the test dataset. 
  Tkinter is used as front-end for this project and it is an built-in library of python.
