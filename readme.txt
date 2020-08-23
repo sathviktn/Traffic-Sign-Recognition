@@ -3,7 +3,7 @@ Traffic Sign Recognition
  Hello everyone . This is a traffic sign recognition project which is created using deep learning and CNN and it is coded in jupyter notebook and the dataset is from kaggle website.
 
  In this project, We have used 43 different classes of traffic signs for classifying. 
- we are using numpy for creation of array of images, pandas for reading the csv file,matplotlib dor plots, pillow for image processing, tensorflow for backend, cv2, keras and sklearn libraries are also required.
+ we are using numpy for creation of array of images, pandas for reading the csv file,matplotlib for plots, pillow for image processing, tensorflow for backend, cv2, keras and sklearn libraries are also required.
  
  Initially we open the directory where the dataset is stored and open every image and resize them. Each image is appended to the data list and the corresponding classes are appended to the labels list.
  Now we create numpy arrays of these lists. we then split the dataset into 80% as train and 20% as test dataset.
