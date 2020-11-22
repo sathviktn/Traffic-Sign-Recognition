@@ -2,7 +2,7 @@
 Traffic Sign Recognition
 
 Hello everyone. 
-  This is a mini project on traffic sign recognition based on deep learning and CNN. It is written in Python3 and the dataset is from the kaggle website.
+  This is a mini project on traffic sign recognition based on deep learning and CNN. It is written in Python3 on Jupyter Notebook and the dataset is from the kaggle website.
 This is the link to the dataset - https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign .
 
 In this project, We have used 43 different classes of traffic signs for classifying. 
@@ -10,7 +10,7 @@ In this project, We have used 43 different classes of traffic signs for classify
 We are using numpy for creation of array of images, pandas for reading the csv file, matplotlib for plots, pillow for image processing, tensorflow for backend, cv2, keras and sklearn libraries are also required.
  
 Explanation -
-
+traffic sign.ipynb
   Initially, we open the directory from the given dataset and open every image and resize them. Each image is appended to the data list and the corresponding classes are appended to the labels list. Now, we create numpy arrays of these lists.
 
 We then split the dataset into 80% as train and 20% as test dataset. Now the class labels for train and test dataset are converted into one hot encoding using to_categorical() into 43x43 vector representation.
@@ -30,8 +30,8 @@ We are using matplotlib for the plotting of graphs between epochs and accuracy f
 Testing the model using the test dataset and finding accuracy score using scikit learn.
 predict_classes uses trained model for predicting the images of the test dataset. 
 
-Gui.py -
-Tkinter is used as front-end for this project and it's an built-in library of python.
+Gui.ipynb -
+    Tkinter is used as front-end for this project and it's an built-in library of python.
 We have created python dictionary for 43 classes of traffic signs.
 We have created the upload button for uploading the image and after pressing the button, the upload function is called. In turn, a new dialog window appears where we can choose the image for the prediction and open it. 
 We have classify button for predicting the class for the uploaded image.
