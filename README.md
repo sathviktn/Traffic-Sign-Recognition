@@ -2,7 +2,8 @@
 Traffic Sign Recognition
 
 Hello everyone. 
-  This is a mini project on traffic sign recognition based on deep learning and CNN. It is written in Python3 and the dataset is from the kaggle website. This is the link to the dataset we used - https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign .
+  This is a mini project on traffic sign recognition based on deep learning and CNN. It is written in Python3 and the dataset is from the kaggle website.
+This is the link to the dataset - https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign .
 
 In this project, We have used 43 different classes of traffic signs for classifying. 
  
